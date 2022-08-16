@@ -1,21 +1,23 @@
-#
 # JavaScript syntax highlighting
 # for MC Editor/CoolEdit
 #
-# Author: Vlad Romanenko <VladRomanenko@ukr.net>
+# Authors:
+#    * Vlad Romanenko <VladRomanenko@ukr.net>
+#    * Timur Shemsedinov <timur.shemsedinov@gmail.com>
+#    * Pavel Roskin <proski@gnu.org>
 # Based on c.syntax
 #
-# TODO:
-# Highlight JS regexpressions /../
-# More built-in functions
+# 2022-08-17  Timur Shemsedinov <timur.shemsedinov@gmail.com>
+#    * Support latest ECMAScript syntax
+#    * Support node.js specific identifiers
+#    * Color compatibility with MC Metarhia Dark Theme
 #
 # 2002-09-17  Vlad Romanenko <VladRomanenko@ukr.net>
-#    * More C and Java consistency by Pavel Roskin <proski@gnu.org>.
+#    * More C and Java consistency by Pavel Roskin <proski@gnu.org>
 #    * Advanced number highlighting.
 #
 # 2002-09-16  Vlad Romanenko <VladRomanenko@ukr.net>
 #    * Initial public release.
-#
 
 context default
 
