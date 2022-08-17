@@ -77,7 +77,6 @@ context default
     keyword whole Date brightgreen
     keyword whole FileSystemObject brightgreen
     keyword whole Function brightgreen
-    keyword whole Global brightgreen
     keyword whole Image brightgreen
     keyword whole Math brightgreen
     keyword whole Map brightgreen
@@ -216,8 +215,8 @@ context default
     keyword } brightmagenta
     keyword ( brightblue
     keyword ) brightblue
-    keyword [ brightcyan
-    keyword ] brightcyan
+    keyword [ brown
+    keyword ] brown
     keyword , brightblue
     keyword ? brightmagenta
     keyword : brightmagenta
