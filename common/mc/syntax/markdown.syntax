@@ -1,0 +1,38 @@
+# Markdown syntax highlighting
+
+context default
+
+## Links
+    keyword [*] brightblue
+    keyword <*> yellow
+    keyword (http*) blue
+    keyword (ftp*) blue
+    keyword (//*) blue
+
+## **Bold** or __Bold__
+    keyword \*\**\*\* white
+    keyword __*__ white
+
+## *italic* or _italic_
+    keyword \s\**\*\s yellow
+    keyword \s_*_\s yellow
+
+## Horisontal ruler
+    keyword linestart -+ white
+
+## List
+    keyword linestart \* brightgreen
+    keyword linestart - brightgreen
+
+## Headings
+
+context linestart #+ \n black white bold
+    spellcheck
+
+## Code, tt, pre
+context ``` ``` brightblue
+context `` `` brightblue
+context ` ` brightblue
+
+context " " green
+    spellcheck
