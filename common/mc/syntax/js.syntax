@@ -138,12 +138,10 @@ context default
     keyword whole console yellow
     keyword whole decodeURIComponent yellow
     keyword whole decodeURI yellow
-    keyword whole __dirname yellow
     keyword whole encodeURIComponent yellow
     keyword whole escape yellow
     keyword whole eval yellow
     keyword whole fetch yellow
-    keyword whole __filename yellow
     keyword whole isFinite yellow
     keyword whole isNaN yellow
     keyword whole module yellow
@@ -166,6 +164,8 @@ context default
     keyword whole null brightblue
     keyword whole undefined brightblue
     keyword whole NaN brightblue
+    keyword whole __dirname yellow
+    keyword whole __filename yellow
 
     #=========================
     # Comments
