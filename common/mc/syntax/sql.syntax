@@ -1,0 +1,374 @@
+#
+# SQL syntax highlighting for CoolEdit
+# for MC Editor/CoolEdit
+#
+# Authors:
+#    * Walery Studennikov <despair@sama.ru>
+#    * Timur Shemsedinov <timur.shemsedinov@gmail.com>
+#
+
+caseinsensitive
+
+context default
+
+    keyword whole abort brightblue
+    keyword whole absolute brightblue
+    keyword whole action brightblue
+    keyword whole ada brightblue
+    keyword whole add brightblue
+    keyword whole all brightblue
+    keyword whole allocate brightblue
+    keyword whole alter brightblue
+    keyword whole and brightblue
+    keyword whole any brightblue
+    keyword whole are brightblue
+    keyword whole as brightblue
+    keyword whole asc brightblue
+    keyword whole assertion brightblue
+    keyword whole at brightblue
+    keyword whole authorization brightblue
+    keyword whole auto_increment brightblue
+    keyword whole begin brightblue
+    keyword whole between brightblue
+    keyword whole bigint brightblue
+    keyword whole bit brightblue
+    keyword whole bit_length brightblue
+    keyword whole blob brightblue
+    keyword whole both brightblue
+    keyword whole by brightblue
+    keyword whole cascade brightblue
+    keyword whole cascaded brightblue
+    keyword whole case brightblue
+    keyword whole cast brightblue
+    keyword whole catalog brightblue
+    keyword whole char brightblue
+    keyword whole char_length brightblue
+    keyword whole character brightblue
+    keyword whole character_length brightblue
+    keyword whole check brightblue
+    keyword whole close brightblue
+    keyword whole coalesce brightblue
+    keyword whole collate brightblue
+    keyword whole collation brightblue
+    keyword whole column brightblue
+    keyword whole comment brightblue
+    keyword whole commit brightblue
+    keyword whole compile brightblue
+    keyword whole connect brightblue
+    keyword whole connection brightblue
+    keyword whole constraint brightblue
+    keyword whole constraint brightblue
+    keyword whole constraints brightblue
+    keyword whole continue brightblue
+    keyword whole copy brightblue
+    keyword whole corresponding brightblue
+    keyword whole create brightblue
+    keyword whole cross brightblue
+    keyword whole count brightblue
+    keyword whole current brightblue
+    keyword whole current_date brightblue
+    keyword whole current_time brightblue
+    keyword whole current_timestamp brightblue
+    keyword whole current_user brightblue
+    keyword whole cursor brightblue
+    keyword whole database brightblue
+    keyword whole date brightblue
+    keyword whole datetime brightblue
+    keyword whole day brightblue
+    keyword whole deallocate brightblue
+    keyword whole dec brightblue
+    keyword whole decimal brightblue
+    keyword whole declare brightblue
+    keyword whole default brightblue
+    keyword whole deferrable brightblue
+    keyword whole deferred brightblue
+    keyword whole delete brightblue
+    keyword whole desc brightblue
+    keyword whole describe brightblue
+    keyword whole descriptor brightblue
+    keyword whole diagnostics brightblue
+    keyword whole disconnect brightblue
+    keyword whole distinct brightblue
+    keyword whole domain brightblue
+    keyword whole double brightblue
+    keyword whole drop brightblue
+    keyword whole else brightblue
+    keyword whole elsif brightblue
+    keyword whole encoding brightblue
+    keyword whole end brightblue
+    keyword whole end-exec brightblue
+    keyword whole enum brightblue
+    keyword whole escape brightblue
+    keyword whole except brightblue
+    keyword whole exception brightblue
+    keyword whole exec brightblue
+    keyword whole execute brightblue
+    keyword whole exists brightblue
+    keyword whole external brightblue
+    keyword whole extract brightblue
+    keyword whole false brightblue
+    keyword whole fetch brightblue
+    keyword whole first brightblue
+    keyword whole float brightblue
+    keyword whole for brightblue
+    keyword whole foreign brightblue
+    keyword whole fortran brightblue
+    keyword whole found brightblue
+    keyword whole from brightblue
+    keyword whole full brightblue
+    keyword whole function brightblue
+    keyword whole get brightblue
+    keyword whole global brightblue
+    keyword whole go brightblue
+    keyword whole goto brightblue
+    keyword whole grant brightblue
+    keyword whole group brightblue
+    keyword whole having brightblue
+    keyword whole hour brightblue
+    keyword whole identity brightblue
+    keyword whole if brightblue
+    keyword whole immediate brightblue
+    keyword whole in brightblue
+    keyword whole include brightblue
+    keyword whole index brightblue
+    keyword whole indicator brightblue
+    keyword whole initially brightblue
+    keyword whole inner brightblue
+    keyword whole input brightblue
+    keyword whole insensitive brightblue
+    keyword whole insert brightblue
+    keyword whole int brightblue
+    keyword whole integer brightblue
+    keyword whole intersect brightblue
+    keyword whole interval brightblue
+    keyword whole into brightblue
+    keyword whole is brightblue
+    keyword whole isolation brightblue
+    keyword whole join brightblue
+    keyword whole key brightblue
+    keyword whole key brightblue
+    keyword whole language brightblue
+    keyword whole last brightblue
+    keyword whole leading brightblue
+    keyword whole left brightblue
+    keyword whole level brightblue
+    keyword whole like brightblue
+    keyword whole local brightblue
+    keyword whole lock brightblue
+    keyword whole longblob brightblue
+    keyword whole longtext brightblue
+    keyword whole loop brightblue
+    keyword whole min brightblue
+    keyword whole match brightblue
+    keyword whole max brightblue
+    keyword whole mediumblob brightblue
+    keyword whole mediumint brightblue
+    keyword whole mediumtext brightblue
+    keyword whole merge brightblue
+    keyword whole minute brightblue
+    keyword whole minus brightblue
+    keyword whole module brightblue
+    keyword whole month brightblue
+    keyword whole names brightblue
+    keyword whole national brightblue
+    keyword whole natural brightblue
+    keyword whole nchar brightblue
+    keyword whole next brightblue
+    keyword whole no brightblue
+    keyword whole none brightblue
+    keyword whole not brightblue
+    keyword whole null brightblue
+    keyword whole nullif brightblue
+    keyword whole number brightblue
+    keyword whole numeric brightblue
+    keyword whole octet_length brightblue
+    keyword whole of brightblue
+    keyword whole offline brightblue
+    keyword whole on brightblue
+    keyword whole online brightblue
+    keyword whole only brightblue
+    keyword whole open brightblue
+    keyword whole option brightblue
+    keyword whole or brightblue
+    keyword whole order brightblue
+    keyword whole out brightblue
+    keyword whole outer brightblue
+    keyword whole output brightblue
+    keyword whole overlaps brightblue
+    keyword whole pad brightblue
+    keyword whole partial brightblue
+    keyword whole pascal brightblue
+    keyword whole position brightblue
+    keyword whole precision brightblue
+    keyword whole prepare brightblue
+    keyword whole preserve brightblue
+    keyword whole primary brightblue
+    keyword whole primary brightblue
+    keyword whole prior brightblue
+    keyword whole privileges brightblue
+    keyword whole procedure brightblue
+    keyword whole public brightblue
+    keyword whole raise brightblue
+    keyword whole read brightblue
+    keyword whole real brightblue
+    keyword whole rebuild brightblue
+    keyword whole references brightblue
+    keyword whole relative brightblue
+    keyword whole rename brightblue
+    keyword whole replace brightblue
+    keyword whole restrict brightblue
+    keyword whole revoke brightblue
+    keyword whole right brightblue
+    keyword whole rollback brightblue
+    keyword whole round brightblue
+    keyword whole rows brightblue
+    keyword whole schema brightblue
+    keyword whole scroll brightblue
+    keyword whole second brightblue
+    keyword whole section brightblue
+    keyword whole select brightblue
+    keyword whole sequence brightblue
+    keyword whole session brightblue
+    keyword whole session_user brightblue
+    keyword whole set brightblue
+    keyword whole size brightblue
+    keyword whole smallint brightblue
+    keyword whole some brightblue
+    keyword whole space brightblue
+    keyword whole sql brightblue
+    keyword whole sqlca brightblue
+    keyword whole sqlstate brightblue
+    keyword whole sqlwarning brightblue
+    keyword whole substring brightblue
+    keyword whole sum brightblue
+    keyword whole system_user brightblue
+    keyword whole table brightblue
+    keyword whole tablespace brightblue
+    keyword whole template brightblue
+    keyword whole temporary brightblue
+    keyword whole text brightblue
+    keyword whole then brightblue
+    keyword whole time brightblue
+    keyword whole truncate brightblue
+    keyword whole timestamp brightblue
+    keyword whole timezone_hour brightblue
+    keyword whole timezone_minute brightblue
+    keyword whole tinyblob brightblue
+    keyword whole tinyint brightblue
+    keyword whole tinytext brightblue
+    keyword whole to brightblue
+    keyword whole trailing brightblue
+    keyword whole transaction brightblue
+    keyword whole translation brightblue
+    keyword whole trigger brightblue
+    keyword whole trim brightblue
+    keyword whole true brightblue
+    keyword whole type brightblue
+    keyword whole union brightblue
+    keyword whole unique brightblue
+    keyword whole unknown brightblue
+    keyword whole unsigned brightblue
+    keyword whole update brightblue
+    keyword whole usage brightblue
+    keyword whole use brightblue
+    keyword whole user brightblue
+    keyword whole using brightblue
+    keyword whole value brightblue
+    keyword whole values brightblue
+    keyword whole varchar brightblue
+    keyword whole varying brightblue
+    keyword whole view brightblue
+    keyword whole when brightblue
+    keyword whole whenever brightblue
+    keyword whole where brightblue
+    keyword whole while brightblue
+    keyword whole with brightblue
+    keyword whole work brightblue
+    keyword whole write brightblue
+    keyword whole year brightblue
+    keyword whole zone brightblue
+
+    keyword /\* green
+    keyword \*/ green
+    keyword -- green
+
+    keyword > brightblue
+    keyword < brightblue
+    keyword \+ brightblue
+    keyword - brightblue
+    keyword \* brightblue
+    keyword / brightblue
+    keyword % brightblue
+    keyword = brightblue
+    keyword ( brightmagenta
+    keyword ) brightmagenta
+    keyword , brightmagenta
+    keyword ; brightmagenta
+    keyword . brightblue
+
+# PostgreSQL specific
+    keyword aggregate brightblue
+    keyword checkpoint brightblue
+    keyword cluster brightblue
+    keyword conversion brightblue
+    keyword listen brightblue
+    keyword notify brightblue
+    keyword operator brightblue
+    keyword reindex brightblue
+    keyword savepoint brightblue
+    keyword unlisten brightblue
+    keyword vacuum brightblue
+
+    keyword createdb brightmagenta
+    keyword createuser brightmagenta
+    keyword nocreatedb brightmagenta
+    keyword nocreateuser brightmagenta
+    keyword password brightmagenta
+    keyword sysid brightmagenta
+
+    keyword currval brightmagenta
+    keyword nextval brightmagenta
+    keyword pg_database brightmagenta
+    keyword pg_group brightmagenta
+    keyword pg_shadow brightmagenta
+    keyword setval brightmagenta
+    keyword stdin brightmagenta
+
+# PostgreSQL sequences
+    keyword cache white
+    keyword increment white
+    keyword maxvalue white
+    keyword minvalue white
+    keyword start white
+
+# Oracle specific
+    keyword dual white
+    keyword whole lag brightblue
+    keyword whole lead brightblue
+    keyword whole nvl brightblue
+    keyword whole over brightblue
+    keyword whole partition brightblue
+    keyword whole pragma brightblue
+    keyword whole varchar2 brightblue
+    keyword whole sys_refcursor brightblue
+
+# MySQL comment
+context linestart # \n green
+    spellcheck
+
+# ANSI SQL comment
+context exclusive -- \n green
+    spellcheck
+
+context exclusive /\* \*/ green
+    spellcheck
+
+context ' ' brightgreen
+    keyword \\' brightgreen
+
+context " " brightgreen
+    keyword \\" brightgreen
+
+# Beckticks are used to escape reserved words in MySQL
+context ` ` cyan
+    keyword . brightblue
