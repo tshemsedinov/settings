@@ -34,11 +34,14 @@ context default
     keyword whole const brightblue
     keyword whole constructor brightcyan
     keyword whole continue brightmagenta
-    keyword whole else brightmagenta
-    keyword whole extends brightblue
-    keyword whole export brightmagenta
+    keyword whole debugger brightblue
     keyword whole default brightblue
     keyword whole delete brightblue
+    keyword whole do brightmagenta
+    keyword whole else brightmagenta
+    keyword whole export brightmagenta
+    keyword whole extends brightblue
+    keyword whole finally brightmagenta
     keyword whole for brightmagenta
     keyword whole function brightblue
     keyword whole if brightmagenta
@@ -50,124 +53,117 @@ context default
     keyword whole of brightblue
     keyword whole prototype brightcyan
     keyword whole return brightmagenta
+    keyword whole super brightcyan
     keyword whole switch brightmagenta
     keyword whole this brightblue
     keyword whole throw brightmagenta
     keyword whole try brightmagenta
     keyword whole typeof brightblue
     keyword whole var brightblue
+    keyword whole void brightmagenta
     keyword whole while brightmagenta
     keyword whole with brightmagenta
     keyword whole yield brightmagenta
-    keyword whole debugger brightblue
-    keyword whole do brightmagenta
-    keyword whole finally brightmagenta
-    keyword whole super brightcyan
-    keyword whole void brightmagenta
 
     #=========================
     # Objects
-    keyword whole AbortSignal brightgreen
     keyword whole AbortController brightgreen
-    keyword whole ActiveXObject brightgreen
-    keyword whole Array brightgreen
-    keyword whole Boolean brightgreen
-    keyword whole Buffer brightgreen
-    keyword whole Blob brightgreenOB
-    keyword whole Date brightgreen
-    keyword whole FileSystemObject brightgreen
-    keyword whole Function brightgreen
-    keyword whole Image brightgreen
-    keyword whole Math brightgreen
-    keyword whole Map brightgreen
-    keyword whole Number brightgreen
-    keyword whole Object brightgreen
-    keyword whole Promise brightgreen
-    keyword whole Proxy brightgreen
-    keyword whole Reflect brightgreen
-    keyword whole Set brightgreen
-    keyword whole Symbol brightgreen
-    keyword whole TextStream brightgreen
-    keyword whole RegExp brightgreen
-    keyword whole VBArray brightgreen
-    keyword whole WeakMap brightgreen
-    keyword whole WeakSet brightgreen
-    keyword whole URL brightgreen
-    keyword whole URLSearchParams brightgreen
-    keyword whole WebAssembly brightgreen
-    keyword whole TextDecoder brightgreen
-    keyword whole DOMException brightgreen
-    keyword whole Error brightgreen
-    keyword whole Infinity brightgreen
-    keyword whole JSON brightgreen
-    keyword whole global brightgreen
-    keyword whole window brightgreen
-    keyword whole globalThis brightgreen
-    keyword whole BigInt brightgreen
+    keyword whole AbortSignal brightgreen
     keyword whole AggregateError brightgreen
-    keyword whole EvalError brightgreen
-    keyword whole RangeError brightgreen
-    keyword whole ReferenceError brightgreen
-    keyword whole SyntaxError brightgreen
-    keyword whole TypeError brightgreen
-    keyword whole URIError brightgreen
-    keyword whole Int8Array brightgreen
-    keyword whole Uint8Array brightgreen
-    keyword whole Uint8ClampedArray brightgreen
-    keyword whole Int16Array brightgreen
-    keyword whole Uint16Array brightgreen
-    keyword whole Int32Array brightgreen
-    keyword whole Uint32Array brightgreen
-    keyword whole Float32Array brightgreen
-    keyword whole Float64Array brightgreen
-    keyword whole BigInt64Array brightgreen
-    keyword whole BigUint64Array brightgreen
+    keyword whole Array brightgreen
     keyword whole ArrayBuffer brightgreen
-    keyword whole SharedArrayBuffer brightgreen
-    keyword whole Atomics brightgreen
-    keyword whole DataView brightgreen
-    keyword whole Promise brightgreen
-    keyword whole Generator brightgreen
-    keyword whole GeneratorFunction brightgreen
     keyword whole AsyncFunction brightgreen
     keyword whole AsyncGenerator brightgreen
     keyword whole AsyncGeneratorFunction brightgreen
+    keyword whole Atomics brightgreen
+    keyword whole BigInt64Array brightgreen
+    keyword whole BigInt brightgreen
+    keyword whole BigUint64Array brightgreen
+    keyword whole Blob brightgreenOB
+    keyword whole Boolean brightgreen
+    keyword whole Buffer brightgreen
+    keyword whole DataView brightgreen
+    keyword whole Date brightgreen
+    keyword whole DOMException brightgreen
+    keyword whole Error brightgreen
+    keyword whole EvalError brightgreen
+    keyword whole Float32Array brightgreen
+    keyword whole Float64Array brightgreen
+    keyword whole Function brightgreen
+    keyword whole Generator brightgreen
+    keyword whole GeneratorFunction brightgreen
+    keyword whole global brightgreen
+    keyword whole globalThis brightgreen
+    keyword whole Image brightgreen
+    keyword whole Infinity brightgreen
+    keyword whole Int16Array brightgreen
+    keyword whole Int32Array brightgreen
+    keyword whole Int8Array brightgreen
     keyword whole Intl brightgreen
+    keyword whole JSON brightgreen
+    keyword whole Map brightgreen
+    keyword whole Math brightgreen
+    keyword whole Number brightgreen
+    keyword whole Object brightgreen
+    keyword whole Promise brightgreen
+    keyword whole Promise brightgreen
+    keyword whole Proxy brightgreen
+    keyword whole RangeError brightgreen
+    keyword whole ReferenceError brightgreen
+    keyword whole Reflect brightgreen
+    keyword whole RegExp brightgreen
+    keyword whole Set brightgreen
+    keyword whole SharedArrayBuffer brightgreen
+    keyword whole Symbol brightgreen
+    keyword whole SyntaxError brightgreen
+    keyword whole TextDecoder brightgreen
+    keyword whole TypeError brightgreen
+    keyword whole Uint16Array brightgreen
+    keyword whole Uint32Array brightgreen
+    keyword whole Uint8Array brightgreen
+    keyword whole Uint8ClampedArray brightgreen
+    keyword whole URIError brightgreen
+    keyword whole URL brightgreen
+    keyword whole URLSearchParams brightgreen
+    keyword whole WeakMap brightgreen
+    keyword whole WeakSet brightgreen
+    keyword whole WebAssembly brightgreen
+    keyword whole window brightgreen
 
     #=========================
     # Most common functions
     keyword whole alert yellow
-    keyword whole escape yellow
-    keyword whole eval yellow
-    keyword whole unescape yellow
-    keyword whole decodeURI yellow
-    keyword whole decodeURIComponent yellow
-    keyword whole encodeURIComponent yellow
-    keyword whole parseFloat yellow
-    keyword whole parseInt yellow
-    keyword whole isFinite yellow
-    keyword whole isNaN yellow
-    keyword whole setInterval yellow
-    keyword whole setTimeout yellow
     keyword whole clearInterval yellow
     keyword whole clearTimeout yellow
-    keyword whole fetch yellow
-    keyword whole __dirname yellow
-    keyword whole __filename yellow
     keyword whole console yellow
+    keyword whole decodeURIComponent yellow
+    keyword whole decodeURI yellow
+    keyword whole __dirname yellow
+    keyword whole encodeURIComponent yellow
+    keyword whole escape yellow
+    keyword whole eval yellow
+    keyword whole fetch yellow
+    keyword whole __filename yellow
+    keyword whole isFinite yellow
+    keyword whole isNaN yellow
     keyword whole module yellow
-    keyword whole process yellow
+    keyword whole parseFloat yellow
+    keyword whole parseInt yellow
     keyword whole performance yellow
+    keyword whole process yellow
     keyword whole queueMicrotask yellow
     keyword whole require yellow
     keyword whole setImmediate yellow
+    keyword whole setInterval yellow
+    keyword whole setTimeout yellow
     keyword whole structuredClone yellow
+    keyword whole unescape yellow
 
     #=========================
     # Constants
+    keyword whole true brightblue
     keyword whole false brightblue
     keyword whole null brightblue
-    keyword whole true brightblue
     keyword whole undefined brightblue
     keyword whole NaN brightblue
 
