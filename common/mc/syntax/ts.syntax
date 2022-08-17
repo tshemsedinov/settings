@@ -1,0 +1,296 @@
+#
+# TypeScript syntax highlighting
+# for MC Editor/CoolEdit
+#
+# Authors:
+#    * Oleksandr Sidko <mortiy@gmail.com>
+#    * Timur Shemsedinov <timur.shemsedinov@gmail.com>
+# Based on js.syntax
+#
+
+context default
+
+
+    #=========================
+    # Keywords
+    keyword whole abstract brightmagenta
+    keyword whole arguments brightcyan
+    keyword whole as brightmagenta
+    keyword whole async brightmagenta
+    keyword whole await brightmagenta
+    keyword whole break brightmagenta
+    keyword whole caller brightcyan
+    keyword whole case brightmagenta
+    keyword whole catch brightmagenta
+    keyword whole class brightblue
+    keyword whole const brightblue
+    keyword whole constructor brightcyan
+    keyword whole continue brightmagenta
+    keyword whole debugger brightblue
+    keyword whole declare brightmagenta
+    keyword whole default brightblue
+    keyword whole delete brightblue
+    keyword whole do brightmagenta
+    keyword whole else brightmagenta
+    keyword whole enum brightblue
+    keyword whole export brightmagenta
+    keyword whole extends brightblue
+    keyword whole finally brightmagenta
+    keyword whole for brightmagenta
+    keyword whole from brightmagenta
+    keyword whole function brightblue
+    keyword whole if brightmagenta
+    keyword whole implements brightmagenta
+    keyword whole import brightmagenta
+    keyword whole in brightblue
+    keyword whole instanceof brightblue
+    keyword whole interface brightmagenta
+    keyword whole let brightblue
+    keyword whole module brightmagenta
+    keyword whole namespace brightmagenta
+    keyword whole new brightblue
+    keyword whole of brightblue
+    keyword whole private brightmagenta
+    keyword whole protected brightmagenta
+    keyword whole prototype brightcyan
+    keyword whole public brightmagenta
+    keyword whole readonly brightmagenta
+    keyword whole return brightmagenta
+    keyword whole static brightmagenta
+    keyword whole super brightcyan
+    keyword whole switch brightmagenta
+    keyword whole this brightblue
+    keyword whole throw brightmagenta
+    keyword whole try brightmagenta
+    keyword whole typeof brightblue
+    keyword whole var brightblue
+    keyword whole void brightmagenta
+    keyword whole while brightmagenta
+    keyword whole with brightmagenta
+    keyword whole yield brightmagenta
+
+    #=========================
+    # Basic Types
+    keyword whole any cyan
+    keyword whole bigint cyan
+    keyword whole boolean cyan
+    keyword whole never cyan
+    keyword whole null cyan
+    keyword whole number cyan
+    keyword whole object cyan
+    keyword whole string cyan
+    keyword whole symbol cyan
+    keyword whole undefined cyan
+    keyword whole unknown cyan
+    keyword whole void cyan
+    keyword whole T cyan
+
+    #=========================
+    # Objects
+    keyword whole AbortController brightgreen
+    keyword whole AbortSignal brightgreen
+    keyword whole AggregateError brightgreen
+    keyword whole Array brightgreen
+    keyword whole ArrayBuffer brightgreen
+    keyword whole AsyncFunction brightgreen
+    keyword whole AsyncGenerator brightgreen
+    keyword whole AsyncGeneratorFunction brightgreen
+    keyword whole Atomics brightgreen
+    keyword whole BigInt64Array brightgreen
+    keyword whole BigInt brightgreen
+    keyword whole BigUint64Array brightgreen
+    keyword whole Blob brightgreenOB
+    keyword whole Boolean brightgreen
+    keyword whole Buffer brightgreen
+    keyword whole DataView brightgreen
+    keyword whole Date brightgreen
+    keyword whole DOMException brightgreen
+    keyword whole Error brightgreen
+    keyword whole EvalError brightgreen
+    keyword whole Float32Array brightgreen
+    keyword whole Float64Array brightgreen
+    keyword whole Function brightgreen
+    keyword whole Generator brightgreen
+    keyword whole GeneratorFunction brightgreen
+    keyword whole global brightgreen
+    keyword whole globalThis brightgreen
+    keyword whole Image brightgreen
+    keyword whole Infinity brightgreen
+    keyword whole Int16Array brightgreen
+    keyword whole Int32Array brightgreen
+    keyword whole Int8Array brightgreen
+    keyword whole Intl brightgreen
+    keyword whole JSON brightgreen
+    keyword whole Map brightgreen
+    keyword whole Math brightgreen
+    keyword whole Number brightgreen
+    keyword whole Object brightgreen
+    keyword whole Promise brightgreen
+    keyword whole Promise brightgreen
+    keyword whole Proxy brightgreen
+    keyword whole RangeError brightgreen
+    keyword whole ReferenceError brightgreen
+    keyword whole Reflect brightgreen
+    keyword whole RegExp brightgreen
+    keyword whole Set brightgreen
+    keyword whole SharedArrayBuffer brightgreen
+    keyword whole Symbol brightgreen
+    keyword whole SyntaxError brightgreen
+    keyword whole TextDecoder brightgreen
+    keyword whole TypeError brightgreen
+    keyword whole Uint16Array brightgreen
+    keyword whole Uint32Array brightgreen
+    keyword whole Uint8Array brightgreen
+    keyword whole Uint8ClampedArray brightgreen
+    keyword whole URIError brightgreen
+    keyword whole URL brightgreen
+    keyword whole URLSearchParams brightgreen
+    keyword whole WeakMap brightgreen
+    keyword whole WeakSet brightgreen
+    keyword whole WebAssembly brightgreen
+    keyword whole window brightgreen
+
+    #=========================
+    # Most common functions
+    keyword whole alert yellow
+    keyword whole clearInterval yellow
+    keyword whole clearTimeout yellow
+    keyword whole console yellow
+    keyword whole decodeURIComponent yellow
+    keyword whole decodeURI yellow
+    keyword whole encodeURIComponent yellow
+    keyword whole escape yellow
+    keyword whole eval yellow
+    keyword whole fetch yellow
+    keyword whole isFinite yellow
+    keyword whole isNaN yellow
+    keyword whole module yellow
+    keyword whole parseFloat yellow
+    keyword whole parseInt yellow
+    keyword whole performance yellow
+    keyword whole process yellow
+    keyword whole queueMicrotask yellow
+    keyword whole require yellow
+    keyword whole setImmediate yellow
+    keyword whole setInterval yellow
+    keyword whole setTimeout yellow
+    keyword whole structuredClone yellow
+    keyword whole unescape yellow
+
+    #=========================
+    # Constants
+    keyword whole true brightblue
+    keyword whole false brightblue
+    keyword whole NaN brightblue
+    keyword whole __dirname yellow
+    keyword whole __filename yellow
+
+    #=========================
+    # Comments
+    keyword /\* green
+    keyword \*/ green
+    keyword // green
+
+    #=========================
+    # Numbers
+    wholechars abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_.
+
+    keyword whole 0\{xX\}\{0123456789abcdefABCDEF\}\[0123456789abcdefABCDEF\] brightgreen
+    keyword whole \{0123456789\}\[0123456789\] brightgreen
+    keyword whole \[0123456789\]\.\{0123456789\}\[0123456789\] brightgreen
+    keyword whole \{0123456789\}\[0123456789\]\.\[0123456789\] brightgreen
+    keyword whole \{0123456789\}\[0123456789\]\{eE\}\{0123456789\}\[0123456789\] brightgreen
+    keyword whole \{0123456789\}\[0123456789\]\{eE\}\{\-\+\}\{0123456789\}\[0123456789\] brightgreen
+    keyword whole \{0123456789\}\[0123456789\]\.\{0123456789\}\[0123456789\]\{eE\}\{0123456789\}\[0123456789\] brightgreen
+    keyword whole \{0123456789\}\[0123456789\]\.\{0123456789\}\[0123456789\]\{eE\}\{\-\+\}\{0123456789\}\[0123456789\] brightgreen
+
+    #=========================
+    # Special symbols
+    keyword <+> brightblue
+    keyword => brightblue
+    keyword \. brightblue
+    keyword \* brightblue
+    keyword \+ brightblue
+    keyword - brightblue
+    keyword / brightblue
+    keyword % brightblue
+    keyword = brightblue
+    keyword ! brightblue
+    keyword & brightblue
+    keyword | brightblue
+    keyword ^ brightblue
+    keyword ~ brightblue
+    keyword > brightblue
+    keyword < brightblue
+    keyword wholeright @+ cyan
+
+    #=========================
+    # Separators
+    keyword { brightmagenta
+    keyword } brightmagenta
+    keyword ( brightblue
+    keyword ) brightblue
+    keyword [ brown
+    keyword ] brown
+    keyword , brightblue
+    keyword ? brightmagenta
+    keyword : brightmagenta
+    keyword ; brightmagenta
+
+# Function return type
+context exclusive wholeright ): \n cyan
+    keyword ; brightmagenta
+    keyword { brightcyan
+
+#=============================
+# Comments
+
+context exclusive /\* \*/ green
+    spellcheck
+    keyword whole BUG brightred
+    keyword whole FixMe brightred
+    keyword whole FIXME brightred
+    keyword whole Note brightred
+    keyword whole NOTE brightred
+    keyword whole ToDo brightred
+    keyword whole TODO brightred
+    keyword !!\[!\] brightred
+    keyword ??\[?\] brightred
+
+
+context exclusive // \n green
+    spellcheck
+    keyword whole BUG brightred
+    keyword whole FixMe brightred
+    keyword whole FIXME brightred
+    keyword whole Note brightred
+    keyword whole NOTE brightred
+    keyword whole ToDo brightred
+    keyword whole TODO brightred
+    keyword !!\[!\] brightred
+    keyword ??\[?\] brightred
+
+
+#=============================
+# Strings
+
+context " " brightgreen
+    spellcheck
+    keyword \\\{\\'"abtnvfr\} brightgreen
+    keyword \\\{0123\}\{01234567\}\{01234567\} brightgreen
+
+    keyword ' brightgreen
+
+context ' ' brightgreen
+    spellcheck
+    keyword \\\{\\'"abtnvfr\} brightgreen
+    keyword \\\{0123\}\{01234567\}\{01234567\} brightgreen
+
+    keyword " brightgreen
+
+context ` ` brightgreen
+    spellcheck
+    keyword \\\{\\'"abtnvfr\} brightgreen
+    keyword \\\{0123\}\{01234567\}\{01234567\} brightgreen
+    keyword ${*} green
+
